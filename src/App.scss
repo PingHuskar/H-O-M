@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  .output {
+    width: 50%;
+  }
+  button {
+    &#copy {
+      background: salmon;
+      outline: 5px solid black;
+      margin: 10px 0;
+    }
+  }
+  input
+  ,textarea {
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+  }
+}
